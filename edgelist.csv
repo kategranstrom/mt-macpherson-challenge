@@ -1,0 +1,51 @@
+node1,node2,trail,distance,color,oneway
+stadium,rr_bcit,Roadway Ramble,0.9,green,0
+rr_bcit,bcit_ellies,BCIT,0.5,green,0
+bcit_ellies,bcit_cr,BCIT,0.5,green,0
+rr_bcit,eals_ellies,Easy Als,0.3,green,0
+eals_ellies,eals_bcit,Easy Als,0.9,green,0
+bcit_ellies,eals_ellies,Ellies,0.2,green,0
+bcit_cr,eals_bcit,BCIT,0.8,blue,0
+bcit_cr_dup,eals_bcit_dup,Short Hop,0.3,green,0
+bcit_cr,bcit_cr_dup,hack,0,green,0
+eals_bcit,eals_bcit_dup,hack,0,green,0
+bcit_cr,cr_blake,Cedar Ramble,0.3,blue,0
+cr_blake,blake_hway,Beaver Lake Road,1.6,blue,0
+blake_hway,hway_nglide,Hydro Way,0.7,black,0
+cr_blake,cr_nglide,Cedar Ramble,0.4,blue,0
+cr_nglide,hway_nglide,Novice Glide,1.2,blue,0
+cr_nglide,cr_ccrawl,Cedar Ramble,0.4,blue,0
+cr_ccrawl,cr_hhill,Cedar Ramble,0.9,blue,0
+cr_hhill,hway_nglide,Cedar Ramble,0.1,blue,0
+cr_hhill,hhill_logr,Hydro Hill,0.2,black,0
+hhill_logr,oleshut,Log Roller,1.4,blue,0
+cr_ccrawl,oleshut,Creek Crawl,0.7,blue,0
+oleshut,ml_hr,Main Loop,1.2,blue,0
+ml_hr,hr_conn,Hard Right,0.3,blue,1
+hr_conn,ml_conn,Connector,0.3,blue,0
+ml_conn,oleshut,Main Loop,1.5,blue,0
+hr_conn,ml_mc,Main Loop,0.2,blue,0
+ml_conn,ml_mc,Main Loop,0.1,blue,0
+ml_mc,ml_gg,Main Loop,0.3,blue,0
+ml_hr,ml_gg,Main Loop,0.4,blue,0
+ml_mc,ml_ld,Main Loop,0.7,blue,0
+ml_ld,ld_dup,Little Dippet ,0.5,green,0
+ld_dup,ld,hack,0,green,0
+ld,ml_ld,hack,0,green,0
+ml_ld,stadium,Main Loop,0.4,blue,0
+ml_gg,gg_sl,Glens Glide,0.9,green,0
+gg_sl,sl_mick,Snakes and Ladders,0.5,black,1
+gg_sl,gg_mick,Glens Glide,0.2,green,0
+sl_mick,mick_dyn,Mickey Olsen,0.4,green,0
+mick_dyn,dyn_low_mick,Dynamite,0.5,green,0
+mick_dyn,mick_ev,Mickey Olsen,0.3,green,0
+mick_ev,ev_dup,Evelyn's Choice,1.1,green,0
+ev_dup,ev,hack,0,green,0
+ev,mick_ev,hack,0,green,0
+mick_ev,dyn_low_mick,Mickey Olsen,1.3,green,0
+dyn_low_mick,t_low_mick,Mickey Olsen,0.7,green,0
+t_mick,t_low_mick,Titan,0.4,blue,0
+t_low_mick,stadium,Mickey Olsen,0.3,green,0
+sl_mick,gg_mick,Mickey Olsen,0.1,green,0
+gg_mick,t_mick,Mickey Olsen,0.2,green,0
+t_mick,ml_ld,Mickey Olsen,0.1,green,0
